@@ -11476,7 +11476,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://i.pinimg.com/736x/30/72/60/307260c576ebe9386e6760f3d789ef1f.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11525,11 +11525,11 @@ footer.footer .social-link:hover {
   font-size: 1.2rem;
 }
 @media (min-width: 992px) {
-  .portfolio-item {
+  .-item {
     max-width: none;
     margin: 0;
   }
-  .portfolio-item .caption {
+  .-item .caption {
     transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out, background-color 0.7s;
     transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
@@ -11562,7 +11562,7 @@ footer.footer .social-link:hover {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: red;
   height: 7rem;
   width: 7rem;
   display: block;
