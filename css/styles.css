@@ -11293,12 +11293,14 @@ html {
 }
 
 .content-section {
-  padding-top: 7.5rem;
+  padding-top: 2rem;
   padding-bottom: 7.5rem;
+  display: flex;
+  background-color: orange;
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
-  font-size: 3rem;
+  font-size: 6rem;
 }
 .content-section-heading h3, .content-section-heading .h3 {
   font-size: 1rem;
@@ -11569,4 +11571,13 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.content-box {
+  background-color: white; /* สีพื้นหลังขาว */
+  padding: 20px; /* ระยะห่างขอบด้านใน */
+  border: 5px solid orange; /* ขอบสีส้ม */
+  border-radius: 10px; /* ทำให้ขอบมน */
+  text-align: center; /* จัดข้อความให้อยู่กึ่งกลาง */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* เพิ่มเงาให้กล่อง */
 }
