@@ -11436,8 +11436,7 @@ html {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
 }
 footer.footer .social-link {
   display: block;
@@ -11446,7 +11445,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #ef6c00;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
@@ -11574,10 +11573,10 @@ footer.footer .social-link:hover {
 }
 
 .content-box {
-  background-color: white; /* สีพื้นหลังขาว */
-  padding: 20px; /* ระยะห่างขอบด้านใน */
-  border: 5px solid orange; /* ขอบสีส้ม */
-  border-radius: 10px; /* ทำให้ขอบมน */
-  text-align: center; /* จัดข้อความให้อยู่กึ่งกลาง */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* เพิ่มเงาให้กล่อง */
+  background-color: white; 
+  padding: 20px; 
+  border: 5px solid orange; 
+  border-radius: 10px; 
+  text-align: center; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
 }
