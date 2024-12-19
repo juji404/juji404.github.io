@@ -642,9 +642,6 @@ progress {
 }
 
 @media (min-width: 576px) {
-  body {
-    font-size:2vw;
-  }
   .container-sm, .container {
     max-width: 540px;
   }
@@ -11304,7 +11301,7 @@ html {
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
-  font-size: 6rem;
+  font-size: clamp(1px, 7vw, 6rem);
 }
 .content-section-heading h3, .content-section-heading .h3 {
   font-size: 1rem;
