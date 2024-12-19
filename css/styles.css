@@ -10,9 +10,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- body {
-  font-size: clamp(23px, 2.1vw, 2rem);
- }
+ 
 :root {
   --bs-blue: #1D809F;
   --bs-indigo: #6610f2;
@@ -644,6 +642,9 @@ progress {
 }
 
 @media (min-width: 576px) {
+  body {
+    font-size:2vw;
+  }
   .container-sm, .container {
     max-width: 540px;
   }
