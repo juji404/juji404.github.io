@@ -19,6 +19,14 @@
         rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        p {
+            font-size: clamp(15px, 2.5vw, 23px);
+        }
+        .item {
+            flex:  1 1 calc(20% - 60%);
+        }
+    </style>
 </head>
 
 <body>
@@ -53,15 +61,24 @@
                                 </div>
                                 <div class="content-box 2" style="margin-bottom: 2rem; position: relative; top:-70px; z-index: 1;">
                                     <div style="justify-items: center;">
-                                        <div class="col-lg-6" style="display:flex; margin-top:4rem">
-                                            <img class="img-fluid" style="flex: 1; margin: auto; max-width: 60% " src="assets/img/ACTIVITY/IMG_25660121_140112.jpg"
-                                        alt="..." />
-                                            <img class="img-fluid" style="flex: 2; margin: auto; max-width: 60%" src="assets/img/CARTIFICATE/e34978c5-8691-47ca-9546-0121a9ea666e.jpg"
-                                        alt="..." />
+                                        <div class="col-lg-6" style="display:flex; margin-top:4rem; justify-content: center;">
+                                            <div style="flex: 1; display: flex; justify-content: center;">
+                                                <img class="img-fluid" style="width: 100%; margin-right:2rem" src="assets/img/ACTIVITY/IMG_25660121_140112.jpg" alt="..." />
+                                            </div>
+                                            <div style="flex: 1; display: flex; justify-content: center;">
+                                                <img class="img-fluid" style="width: 100%; margin-left:2rem" src="assets/img/CARTIFICATE/e34978c5-8691-47ca-9546-0121a9ea666e.jpg" alt="..." />
+                                            </div>
                                         </div>
+                                    </div>
+                                    <div class="content-section-heading text-center">
+                                        <p class="mb-0 " style=" margin-top:1.5rem">
+                                            ได้เข้าร่วมกิจกรรม engineer open house ที่มหาวิทยาลัยพระจอมเกล้าธนบุรีได้เดินชมนิทรรศการต่างๆที่รุ่นพี่จัดได้ลองทำ work shop ต่างๆที่พี่ๆในขณะจัด
+                                            <br>สิ่งที่ได้จากกิจกรรมนี้คือ แนวทางการศีกษาต่อ ประสบการณ์ใช้ CMD ในการหาไฟล์ข้อมูลในเครื่อง
+                                        </p>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
